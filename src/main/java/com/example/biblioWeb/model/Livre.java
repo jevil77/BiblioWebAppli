@@ -53,44 +53,5 @@ public class Livre {
         return "ISBN: " + ISBN + "Titre: " + titre + "Auteur: " + auteur + "Année: " + annee;
     }
 
-    public static class Auteur {
-        String nom;
-        String date_naissance;
-        String date_mort;
 
-        public Auteur(String nom, String date_naissance, String date_mort){
-            this.nom = nom;
-            this.date_naissance = date_naissance;
-            this.date_mort = date_mort;
-        }
-
-
-        public String getNom() {
-            return nom;
-        }
-
-        public void setNom(String nom) {
-            this.nom = nom;
-        }
-
-        public String getDate_naissance() {
-            return date_naissance;
-        }
-
-        public void setDate_naissance(String date_naissance) {
-            this.date_naissance = date_naissance;
-        }
-
-        public String getDate_mort() {
-            return date_mort;
-        }
-
-        public void setDate_mort(String date_mort) {
-            this.date_mort = date_mort;
-        }
-
-        public String getDescription(){
-            return "Nom: " + nom + "Date de naissance: " + date_naissance + "Date de décès: " + date_mort;
-        }
-    }
 }
